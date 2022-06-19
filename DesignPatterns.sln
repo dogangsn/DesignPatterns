@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaseProject", "BaseProject\BaseProject.csproj", "{9B6CDFB4-4C08-4AE9-9234-125C71E278C3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BaseProject", "BaseProject\BaseProject.csproj", "{9B6CDFB4-4C08-4AE9-9234-125C71E278C3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CQRS", "CQRS", "{938BC740-93B8-4B45-B364-9DED81D9C79D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Commands", "Commands", "{F6A297BE-534B-41DE-B1A3-7D48F9C3E5F8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Handlers", "Handlers", "{EF12ECB1-BE09-41C7-BDB9-7DD63C0D7E88}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Queries", "Queries", "{CB204BDC-0DFC-42A3-B6C5-BDCAB670491A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,6 +26,11 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F6A297BE-534B-41DE-B1A3-7D48F9C3E5F8} = {938BC740-93B8-4B45-B364-9DED81D9C79D}
+		{EF12ECB1-BE09-41C7-BDB9-7DD63C0D7E88} = {938BC740-93B8-4B45-B364-9DED81D9C79D}
+		{CB204BDC-0DFC-42A3-B6C5-BDCAB670491A} = {938BC740-93B8-4B45-B364-9DED81D9C79D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {82AEECCD-A1AC-4993-BA59-6AA1606D2187}
