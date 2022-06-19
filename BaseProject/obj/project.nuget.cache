@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sV8tfMxRnXya5cw4Lvw06maGKK1+5Ci76/UZPNs1iNHBkvuD2BAqYH2tHbNPkT0uX81VMcKKLuwG5DC0J/GhqQ==",
+  "dgSpecHash": "q6WggzG8uK9dNcd7tepJ7au1Qx6Q7O79oz3wmVp4zZQEln6vsX/KSpDd4BBVxSTbuRAEmklxqP8f3IpzYd6BHA==",
   "success": true,
-  "projectFilePath": "D:\\Dogan\\Project\\DesignPatern\\DesignPatterns\\BaseProject\\BaseProject.csproj",
+  "projectFilePath": "D:\\Dogan\\Project\\DesignPatterns\\BaseProject\\BaseProject.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DG\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\DG\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
